@@ -42,7 +42,7 @@ behavior to continue to use it until such a time as they can migrate.
 
 ## install
 
-    go get github.com/jmoiron/sqlx
+    go get github.com/sandwich-go/sqlx
 
 ## issues
 
@@ -73,7 +73,7 @@ import (
     "log"
     
     _ "github.com/lib/pq"
-    "github.com/jmoiron/sqlx"
+    "github.com/sandwich-go/sqlx"
 )
 
 var schema = `
